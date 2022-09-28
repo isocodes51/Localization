@@ -8,7 +8,7 @@ using System.Reflection;
 
 namespace Localization.Concrete
 {
-    public class LocalizationManager : ILocalizationService<String>
+    public class LocalizationStringManager : ILocalizationService<String>
     {
               
 

@@ -8,9 +8,9 @@ namespace Localization
     {
         static void Main(string[] args)
         {
-            LocalizationManager localizationManager = new LocalizationManager();
-            localizationManager.Add("Hello1", "Hello World1", "jp-JP");
-            localizationManager.GetAll("jp-JP");
+            LocalizationStringManager localizationStringManager = new LocalizationStringManager();
+            localizationStringManager.Add("Hello1", "Hello World1", "jp-JP");
+            localizationStringManager.GetAll("jp-JP");
 
 
         }
